@@ -1,23 +1,23 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Bad+Script&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
-
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 body {
   width: 100%;
   margin: 0px;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  color: #b7d1ff;
-  background-color: hsl(218, 55%, 8%);
+  font-family: "Montserrat", sans-serif;
+  background-color: #091120;
+  color: white;
 }
 #main {
   margin: auto;
   width: 75%;
   padding-top: 50px;
 }
+header {
+  text-align: center;
+}
 #title {
   margin: 15px 0 0;
-  font-size: 36px;
+  letter-spacing: 1px;
 }
 #fav-phrase {
   font-size: 18px;
@@ -47,29 +47,31 @@ body {
 #tribute-info {
   width: 100%;
 }
-h2 {
+#tribute-info > h2 {
   margin: 50px 0 40px;
+  text-align: center;
+  font-weight: normal;
+  color: white;
 }
 ul {
-  text-align: justify;
   width: 80%;
   max-width: 608px;
   padding: 0px;
   margin: auto;
-  font-family: "Roboto Mono", monospace;
 }
 li {
   line-height: 35px;
   margin: 10px 0;
   font-size: 18px;
 }
-h3 {
+#tribute-info > h3 {
   margin: 40px 0 50px;
-  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 a {
-  color: rgb(31, 91, 255);
-  text-decoration: underline;
+  color: rgb(0, 68, 255);
+  font-style: italic;
+  text-decoration: none;
 }
 
 @media (max-width: 600px) {

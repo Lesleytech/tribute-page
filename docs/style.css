@@ -1,43 +1,54 @@
 @import url("https://fonts.googleapis.com/css?family=Bad+Script&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 body {
   width: 100%;
   margin: 0px;
-  font-family: "Montserrat", sans-serif;
-  background-color: #091120;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #0e1930;
   color: white;
 }
+
 #main {
   margin: auto;
   width: 75%;
   padding-top: 50px;
 }
+
 header {
   text-align: center;
 }
+
 #title {
   margin: 15px 0 0;
   letter-spacing: 1px;
+  font-weight: lighter;
+  font-size: 28px;
 }
+
 #fav-phrase {
   font-size: 18px;
   margin: 15px;
   font-family: "Bad Script", cursive;
 }
+
 #image-container {
   border: 2px solid white;
   padding: 0;
   max-width: 90%;
   margin: auto;
 }
+
 #img-div {
   margin: 0;
 }
+
 #image {
   max-width: 100%;
   height: auto;
   display: block;
 }
+
 #img-caption {
   padding: 10px 5px;
   background-color: white;
@@ -45,45 +56,63 @@ header {
   color: #060d18;
   text-align: center;
 }
+
 #tribute-info {
   width: 100%;
   padding: 0 10px;
+  box-sizing: border-box;
 }
-#tribute-info > h2 {
+
+#tribute-info>h2 {
   margin: 50px 0 40px;
   text-align: center;
-  font-weight: normal;
+  font-size: 24px;
+  font-weight: lighter;
   color: white;
+  text-decoration: underline;
 }
+
 ul {
   width: 80%;
   max-width: 608px;
   padding: 0px;
   margin: auto;
 }
+
 li {
   line-height: 35px;
   margin: 10px 0;
   font-size: 18px;
+  font-weight: lighter;
 }
-#tribute-info > h3 {
+
+#tribute-info>h3 {
   margin: 40px 0 50px;
   text-align: center;
+  line-height: 1.5;
+  font-weight: lighter;
 }
+
 a {
-  color: rgb(0, 68, 255);
+  color: rgb(0, 130, 255);
   font-style: italic;
   text-decoration: none;
 }
 
 @media (max-width: 600px) {
   #title {
-    font-size: 32px;
+    font-size: 26px;
   }
+
+  #tribute-info h3 {
+    font-size: 22px;
+  }
+
   #main {
     margin: 0;
     width: 100%;
   }
+
   ul {
     padding-left: 10px;
   }

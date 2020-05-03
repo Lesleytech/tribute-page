@@ -66,10 +66,9 @@ header {
 #tribute-info > h2 {
   margin: 50px 0 40px;
   text-align: center;
-  font-size: 24px;
   font-weight: lighter;
   color: white;
-  text-decoration: underline;
+  font-family: "Bad Script", cursive;
 }
 
 ul {
@@ -102,10 +101,6 @@ a {
 @media (max-width: 600px) {
   #title {
     font-size: 26px;
-  }
-
-  #tribute-info h3 {
-    font-size: 22px;
   }
 
   #main {

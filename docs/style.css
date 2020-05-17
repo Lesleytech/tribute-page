@@ -94,7 +94,8 @@ li {
   text-align: center;
   line-height: 1.5;
   font-weight: lighter;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  opacity: 75%;
 }
 
 a {

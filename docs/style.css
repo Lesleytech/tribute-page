@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Bad+Script&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
+html {
+  font-size: 10px;
+}
 body {
   width: 100%;
   margin: 0px;
   font-family: 'Open Sans', sans-serif;
   background-color: #0e1930;
   color: white;
+  font-size: 1rem;
 }
 
 #main {
   margin: auto;
   width: 75%;
-  padding-top: 50px;
+  padding-top: 4em;
 }
 
 header {
@@ -22,11 +26,11 @@ header {
 #title {
   margin: 15px 0 0;
   letter-spacing: 1.1px;
-  font-size: 28px;
+  font-size: 2.8rem;
 }
 
 #fav-phrase {
-  font-size: 18px;
+  font-size: 1.8rem;
   margin: 15px;
   font-family: 'Bad Script', cursive;
 }
@@ -51,7 +55,7 @@ header {
 #img-caption {
   padding: 10px 5px;
   background-color: white;
-  font-size: 16px;
+  font-size: 1.6rem;
   color: #060d18;
   text-align: center;
 }
@@ -67,6 +71,8 @@ header {
   text-align: center;
   color: white;
   font-family: 'Bad Script', cursive;
+  font-size: 2.4rem;
+  font-weight: 600;
 }
 
 ul {
@@ -77,9 +83,9 @@ ul {
 }
 
 li {
-  line-height: 35px;
+  line-height: 2em;
   margin: 15px 0;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: lighter;
 }
 
@@ -88,6 +94,7 @@ li {
   text-align: center;
   line-height: 1.5;
   font-weight: lighter;
+  font-size: 2rem;
 }
 
 a {
@@ -97,8 +104,8 @@ a {
 }
 
 @media (max-width: 600px) {
-  #title {
-    font-size: 26px;
+  html {
+    font-size: 9px;
   }
 
   #main {
